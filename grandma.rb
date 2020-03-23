@@ -1,4 +1,4 @@
-def speak_to_grandma()
+def speak_to_grandma(require_relative)
   if response == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN"
   else if response != response.upcase
