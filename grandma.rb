@@ -1,9 +1,9 @@
 def speak_to_grandma(require_relative)
-  if response == "I LOVE YOU GRANDMA!"
+  if require_relative == "I LOVE YOU GRANDMA!"
     return "I LOVE YOU TOO PUMPKIN"
-  else if response != response.upcase
+  else if require_relative != require_relative.upcase
     return "HUH?! SPEAK UP, SONNY!"
-  else response == response.upcase
+  else require_relative == require_relative.upcase
     return "NO, NOT SINCE 1938!"
 end
 
