@@ -7,7 +7,8 @@ def speak_to_grandma(phrase)
     return "NO, NOT SINCE 1938!"
 end
 
-puts speak_to_grandma
+speak_to_grandma("hello there")
+
 # Write a speak_to_grandma method.
 # Whatever you say to grandma, she should respond with
 # unless you shout it (type in all capitals).
